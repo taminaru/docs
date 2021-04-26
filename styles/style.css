@@ -1,88 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;1,400;1,500;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;1,400;1,500;1,600&family=Freckle+Face&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;1,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;1,400;1,500;1,600&family=Freckle+Face&display=swap");
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-	background-image: url('../public/img/background.jpeg');
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center center;
-	height: 100vh;
+  background-image: url("../public/img/background.jpeg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
 }
 
+/* global colors and other misc */
 :root {
-    --discord-dark: #23272a;
-    --discord-dark-gray: #2c2f33;
-    --discord-gray: #99aab5;
-    --discord-light-blue: #7289da;
-    --discord-dark-blue: #4e5d94;
+  --discord-dark: #23272a;
+  --discord-dark-gray: #2c2f33;
+  --discord-gray: #99aab5;
+  --discord-light-blue: #7289da;
+  --discord-dark-blue: #4e5d94;
 }
 
+/* Basic nav props */
 .menu-area li a {
-	text-decoration: none;
-	color: var(--discord-gray);
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	display: block;
-	padding: 0 25px;
-	font-size: 14px;
-	line-height: 30px;
-	position: relative;
-	z-index: 1;
-	font-family: Barlow;
+  text-decoration: none;
+  color: var(--discord-gray);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 25px;
+  font-size: 14px;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+  font-family: Barlow;
 }
 .menu-area li {
-	list-style: none;
-	display: inline-block;
+  list-style: none;
+  display: inline-block;
 }
 .custom-padding {
-	padding-top: 25px;
+  padding-top: 25px;
 }
 nav {
-	position: relative;
-	padding: 10px 20px 10px 10px;
-	text-align: right;
-	z-index: 1;
-	background: var(--discord-dark);
-	margin: 0 auto;
-	width: calc(100% - 60px);
+  position: relative;
+  padding: 10px 20px 10px 10px;
+  text-align: right;
+  z-index: 1;
+  background: var(--discord-dark);
+  margin: 0 auto;
+  width: calc(100% - 60px);
 }
 .logo {
-	width: 15%;
-	float: left;
-	text-transform: uppercase;
-	color: #fff;
-	font-size: 25px;
-	text-align: left;
-	padding-left: 2%;
-	font-family: Freckle Face;
+  width: 15%;
+  float: left;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 2%;
+  font-family: Freckle Face;
 }
+
+/* logo animations and color corrections */
+.logo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo a:hover {
+  color: var(--discord-gray);
+  cursor: pointer;
+}
+
 .menu-area li a:hover {
-	background: var(--discord-light-blue);
-	color: #fff;
+  background: var(--discord-light-blue);
+  color: #fff;
 }
+/* nav animations */
 nav:before {
-	position: absolute;
-	content: '';
-	left: 0;
-	top: 100%;
-	border-top: 10px solid #333;
-	border-right: 10px solid #333;
-	border-left: 10px solid transparent;
-	border-bottom: 10px solid transparent;
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 100%;
+  border-top: 10px solid #333;
+  border-right: 10px solid #333;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
 }
 nav:after {
-	position: absolute;
-	content: '';
-	border-top: 10px solid #333;
-	border-left: 10px solid #333;
-	border-right: 10px solid transparent;
-	border-bottom: 10px solid transparent;
-	top: 100%;
-	right: 0;
+  position: absolute;
+  content: "";
+  border-top: 10px solid #333;
+  border-left: 10px solid #333;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  top: 100%;
+  right: 0;
+}
+
+/* Bot image for home page */
+.bot-logo {
+  /* makes in image a circle */
+  border-radius: 50%; 
+  max-width: 100%;
+  height: auto;
+  display: block;
+  /* centers the logo */
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 27rem;
 }
