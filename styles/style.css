@@ -71,7 +71,7 @@ nav {
   text-decoration: none;
 }
 
-.logo a:hover {
+.logo:hover {
   color: var(--discord-gray);
   cursor: pointer;
 }
