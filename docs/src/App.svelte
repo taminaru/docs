@@ -1,24 +1,33 @@
 <script>
-  let name = "world";
-  let src = "favicon.png";
-  let count = 0;
-  // counter
-  const inCrementCounter = () => {
-	  count +=1
-  }
+  export let name
+  // 
+  let user = { loggedIn: false };
+  function toggle() {
+		user.loggedIn = !user.loggedIn;
+	}
 </script>
 
 <main>
+  <div class="nav">
     <h1>
-      Hello {name}
+      {name} Bot
     </h1>
-    <h3>Counter: {count}</h3>
-    <button on:click={inCrementCounter}>increase counter!</button>
-  <img {src} alt="Svelt logo" />
+  </div>
+  <div class="main">
+    {#if user.loggedIn}
+	<button on:click={toggle}>
+		Log out
+	</button>
+{:else}
+	<button on:click={toggle}>
+		Log in
+	</button>
+{/if}
+  </div>
 </main>
 
 <style>
-  main {
+  .main {
     display: flex;
     flex-direction: column;
     align-items: center;
