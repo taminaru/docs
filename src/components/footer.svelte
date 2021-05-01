@@ -1,5 +1,6 @@
 <script>
   let date = new Date();
+  import logo from "../images/GitHub-Mark-Light-32px.png";
 </script>
 
 <div>
@@ -11,32 +12,30 @@
       alt="Link to my github"
     >
       &copy; ThatGuyJamal
-      <img src="/images/GitHub-Mark-Light-32px.png" alt="github logo" />
+      <img src={logo} alt="github logo" />
     </a>
   </footer>
 </div>
 
 <style>
-      
-:root {
+  :root {
     --discord-dark: #23272a;
     --discord-dark-gray: #2c2f33;
     --discord-gray: #99aab5;
     --discord-light-blue: #7289da;
     --discord-dark-blue: #4e5d94;
-}
+  }
 
   footer {
     position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: var(--discord-dark-gray);
-  color: white;
-  text-align: center;
-  animation-delay: 1s;
-  animation-name: footer_animation;
-
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--discord-dark-gray);
+    color: white;
+    text-align: center;
+    animation-delay: 1s;
+    animation-name: footer_animation;
   }
 
   /* ? footer animations */
@@ -64,6 +63,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: var(--discord-light-blue);
   }
 </style>

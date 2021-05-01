@@ -1,4 +1,5 @@
 <script>
+  import background from '../images/background.jpeg'
 </script>
 
 <main>
