@@ -3,7 +3,10 @@ import commonjs from "@rollup/plugin-commonjs";
 import resolve from "@rollup/plugin-node-resolve";
 import livereload from "rollup-plugin-livereload";
 import { terser } from "rollup-plugin-terser";
+import autoPreprocess from "svelte-preprocess";
+import image from "@rollup/plugin-image";
 import css from "rollup-plugin-css-only";
+import url from "@rollup/plugin-url";
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -32,7 +35,7 @@ function serve() {
   };
 }
 
-export default {
+export default (theme) => ({
   input: "src/main.js",
   output: {
     sourcemap: true,
@@ -45,6 +48,12 @@ export default {
       compilerOptions: {
         // enable run-time checks when not in production
         dev: !production,
+      },
+      preprocess: autoPreprocess(),
+      // we'll extract any component CSS out into
+      // a separate file — better for performance
+      css: (css) => {
+        css.write("public/bundle.css");
       },
     }),
     // we'll extract any component CSS out into
@@ -61,6 +70,10 @@ export default {
       dedupe: ["svelte"],
     }),
     commonjs(),
+    // load the image converter for roll-up
+    image(),
+    // Import files as data-URIs or ES Modules
+    url(),
 
     // In dev mode, call `npm run start` once
     // the bundle has been generated
@@ -77,4 +90,4 @@ export default {
   watch: {
     clearScreen: false,
   },
-};
+});
