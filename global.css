@@ -6,6 +6,7 @@
   --discord-dark-blue: #4e5d94;
 }
 
+
 html,
 body {
   position: relative;
@@ -14,7 +15,7 @@ body {
 }
 
 body {
-  background-image: url("/images/background.jpeg");
+  background-image: url("./images/background.jpeg");
   background-color: var(--discord-dark);
   color: #333;
   margin: 0;
