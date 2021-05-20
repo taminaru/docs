@@ -1,8 +1,7 @@
-# Taminaru documentation and dashbaord
+# Taminaru Documentation and Dashboard
 
-![Bot logo](https://github.com/taminaru/bot/blob/main/shell/assets/bot/Terminal_Av_Small.png)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/taminaru/site?style=social)
+<img src="https://github.com/taminaru/bot/blob/main/shell/assets/bot_images/Terminal_Av_Small.png" alt="Bot Logo"></img> <img src="https://tokei.rs/b1/github/taminaru/site?category=lines"></img>![GitHub last commit](https://img.shields.io/github/last-commit/taminaru/site?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/taminaru/site?style=social) ![GitHub Repo stars](https://img.shields.io/github/stars/taminaru/site?style=social) ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCVOQobByo_2WISQf2037eXQ?style=social) ![Discord](https://img.shields.io/discord/771507203647209482)
 
 Welcome, this repo contains the source to the [docs](https://taminaru.github.io/site/) along with the [dashboard](https://taminaru.github.io/site/).
