@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>Taminaru Blog</title>
-        <link>https://taminaru.github.io/blog</link>
+        <link>https://taminaru.github.io/site/blog</link>
         <description>Taminaru Blog</description>
         <lastBuildDate>Wed, 18 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <copyright>Copyright © 2021 Taminaru, Inc.</copyright>
         <item>
             <title><![CDATA[Creator of taminaru]]></title>
-            <link>https://taminaru.github.io/blog/welcome</link>
+            <link>https://taminaru.github.io/site/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Wed, 18 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Information command soon]]></description>

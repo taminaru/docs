@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksource=self.webpackChunksource||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"All our posts","items":[{"title":"Creator of taminaru","permalink":"/site/blog/welcome"}]}')}}]);
