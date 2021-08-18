@@ -6,7 +6,7 @@ module.exports = {
 	title: "Taminaru",
 	tagline: "just another robot...",
 	url: "https://taminaru.github.io/",
-	baseUrl: "/",
+	baseUrl: "/site/",
 	onBrokenLinks: "warn",
 	onBrokenMarkdownLinks: "throw",
 	onBrokenLinks: "throw",
