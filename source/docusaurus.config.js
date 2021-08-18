@@ -130,7 +130,7 @@ module.exports = {
 						},
 						{
 							label: "Support Us",
-							to: "/docs/home/doc2",
+							to: "/docs/contributors",
 						},
 					],
 				},
