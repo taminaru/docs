@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 # Taminaru Documentation and Dashboard
 
 
@@ -21,6 +22,9 @@ Currently there is no support for self hosting the docs / dashboard. If you are 
 
 - [Discord](https://discord.com/invite/NbqBQbaejS)
 - [YouTube](https://www.youtube.com/channel/UCVOQobByo_2WISQf2037eXQ)
+=======
+The documentation for taminaru
+>>>>>>> Stashed changes
 =======
 The documentation for taminaru
 >>>>>>> Stashed changes
