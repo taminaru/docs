@@ -5,7 +5,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula")
 module.exports = {
 	title: "Taminaru",
 	tagline: "Taminaru Bot Documentation",
-	url: "https://taminaru.github.io/site/",
+	url: "https://taminaru.github.io/",
 	baseUrl: "/",
 	onBrokenLinks: "warn",
 	onBrokenMarkdownLinks: "throw",
@@ -27,10 +27,10 @@ module.exports = {
 			hideOnScroll: true,
 			items: [
 				{
-					type: "doc",
-					docId: "intro",
+					to: "docs/",
+					activeBasePath: "docs",
+					label: "Docs",
 					position: "left",
-					label: "Tutorial",
 				},
 				{ to: "/blog", label: "Blog", position: "left" },
 				{
