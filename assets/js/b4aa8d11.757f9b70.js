@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksource=self.webpackChunksource||[]).push([[728],{4777:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"that-guy-jamal","name":"thatguyjamal","count":1,"permalink":"/blog/tags/that-guy-jamal"}')}}]);

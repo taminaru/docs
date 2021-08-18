@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://taminaru.github.io/site/blog</id>
+    <title>Taminaru Blog</title>
+    <updated>2021-08-18T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://taminaru.github.io/site/blog"/>
+    <subtitle>Taminaru Blog</subtitle>
+    <icon>https://taminaru.github.io/site/img/favicon.png</icon>
+    <rights>Copyright © 2021 Taminaru, Inc.</rights>
+    <entry>
+        <title type="html"><![CDATA[Creator of taminaru]]></title>
+        <id>welcome</id>
+        <link href="https://taminaru.github.io/site/blog/welcome"/>
+        <updated>2021-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Information command soon]]></summary>
+    </entry>
+</feed>
