@@ -1,9 +1,9 @@
 ---
 id: homepage
 title: Introduction
-sidebar_label: Before You begin
+sidebar_label: README
 author: ThatGuyJamal
 slug: /
 ---
 
-Information coming soon! Bot in development
+```Information coming soon! Bot in development```

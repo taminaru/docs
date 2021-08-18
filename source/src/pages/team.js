@@ -27,7 +27,7 @@ function Team() {
 								<div className="avatar">
 									<div className="avatar__intro margin-left--none">
 										<h3 className="avatar__name">ThatGuyJamal</h3>
-										<small className="avatar__subtitle">Coding for you!</small>
+										<small className="avatar__subtitle">The owner and developer of taminaru</small>
 										<small>Discord: ThatGuyJamal#2695</small>
 										<small>YouTube: ThatGuyJamal</small>
 									</div>
@@ -48,7 +48,7 @@ function Team() {
 											This could be you...just saying
 										</h3>
 										<small className="avatar__subtitle">
-											<Link to={"/docs/home/doc2"}>Join the team!</Link>
+											<Link to={"/docs/"}>Join the team!</Link>
 										</small>
 									</div>
 								</div>

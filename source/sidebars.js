@@ -12,8 +12,8 @@
 module.exports = {
 	docs: {
 		/**
-     * @description home section of the docs
-     */
-		Home: ["home/homepage"],
+		 * @description home section of the docs
+		 */
+		Home: ["home/homepage", "home/contributors"],
 	},
 }
