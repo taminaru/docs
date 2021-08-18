@@ -4,14 +4,14 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula")
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
 	title: "Taminaru",
-	tagline: "Taminaru Bot Documentation",
+	tagline: "Click below to get started!",
 	url: "https://taminaru.github.io/",
 	baseUrl: "/",
 	onBrokenLinks: "warn",
 	onBrokenMarkdownLinks: "throw",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
-	favicon: "img/favicon.ico",
+	favicon: "img/favicon.png",
 	organizationName: "Taminaru", // Usually your GitHub org/user name.
 	projectName: "site", // Usually your repo name.
 	customFields: {
@@ -34,7 +34,7 @@ module.exports = {
 				},
 				{ to: "/blog", label: "Blog", position: "left" },
 				{
-					href: "https://github.com/taminaru/site",
+					href: "https://github.com/taminaru/",
 					label: "GitHub",
 					position: "right",
 				},
@@ -44,11 +44,6 @@ module.exports = {
 					label: "Team",
 					position: "right",
 					activeBaseRegex: `team`,
-				},
-				{
-					href: "https://github.com/taminaru/site",
-					label: "GitHub",
-					position: "right",
 				},
 				// ? Supports the language change function.
 				{
@@ -164,7 +159,7 @@ module.exports = {
 					],
 				},
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} DeepWebDevelopers, Inc. Built with Docusaurus.`,
+			copyright: `Copyright © ${new Date().getFullYear()} Taminaru, Inc.`,
 		},
 		prism: {
 			theme: lightCodeTheme,
@@ -198,7 +193,7 @@ module.exports = {
 					postsPerPage: 3,
 					feedOptions: {
 						type: "all",
-						copyright: `Copyright © ${new Date().getFullYear()} DeepWebDevelopers, Inc.`,
+						copyright: `Copyright © ${new Date().getFullYear()} Taminaru, Inc.`,
 					},
 				},
 				pages: {
