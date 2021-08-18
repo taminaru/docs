@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 # Taminaru Documentation and Dashboard
 
 
