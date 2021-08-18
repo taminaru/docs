@@ -4,7 +4,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula")
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
 	title: "Taminaru",
-	tagline: "Click below to get started!",
+	tagline: "just another robot...",
 	url: "https://taminaru.github.io/",
 	baseUrl: "/",
 	onBrokenLinks: "warn",
@@ -26,6 +26,7 @@ module.exports = {
 			},
 			hideOnScroll: true,
 			items: [
+				// ?left
 				{
 					to: "docs/",
 					activeBasePath: "docs",
@@ -33,22 +34,23 @@ module.exports = {
 					position: "left",
 				},
 				{ to: "/blog", label: "Blog", position: "left" },
+				{ to: "/faq", label: "FAQ", position: "left" },
 				{
-					href: "https://github.com/taminaru/",
-					label: "GitHub",
-					position: "right",
+					type: "localeDropdown",
+					position: "left",
 				},
-				// need to add later
+				// ? right
 				{
 					to: "team",
 					label: "Team",
 					position: "right",
 					activeBaseRegex: `team`,
 				},
-				// ? Supports the language change function.
+
 				{
-					type: "localeDropdown",
-					position: "left",
+					href: "https://github.com/taminaru/",
+					label: "GitHub",
+					position: "right",
 				},
 			],
 		},
@@ -100,9 +102,9 @@ module.exports = {
 
 		// Shows on user load - kind of like an ad for our github :D
 		announcementBar: {
-			id: "supportus",
+			id: "support-us",
 			content:
-				'⭐️ If you like Taminaru please consider upvoting me on <a target="_blank" rel="noopener noreferrer" href="/">Top.gg</a>! ⭐️',
+				'⭐️ If you like Taminaru please consider upvoting me on <a target="_blank" rel="noopener noreferrer" href="/site">Top.gg</a>! ⭐️',
 		},
 
 		//! Will be adding soon when docs complete
